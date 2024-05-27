@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Student;
+
+message Student
+{
+  uint64 StudentNumber = 1;
+  string StudentName = 2;
+};

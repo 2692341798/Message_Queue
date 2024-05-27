@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../../lib/libace_logging_proto.a  CMakeFiles/ace_logging_proto.dir/logrecord.pb.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../../lib/libace_logging_proto.a

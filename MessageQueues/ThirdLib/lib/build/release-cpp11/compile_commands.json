@@ -1,0 +1,1192 @@
+[
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/AsyncLogging.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/AsyncLogging.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/AsyncLogging.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/Condition.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/Condition.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/Condition.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/CountDownLatch.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/CountDownLatch.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/CountDownLatch.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/CurrentThread.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/CurrentThread.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/CurrentThread.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/Date.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/Date.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/Date.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/Exception.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/Exception.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/Exception.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/FileUtil.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/FileUtil.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/FileUtil.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/LogFile.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/LogFile.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/LogFile.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/Logging.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/Logging.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/Logging.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/LogStream.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/LogStream.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/LogStream.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/ProcessInfo.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/ProcessInfo.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/ProcessInfo.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/Timestamp.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/Timestamp.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/Timestamp.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/Thread.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/Thread.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/Thread.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/ThreadPool.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/ThreadPool.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/ThreadPool.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_base.dir/TimeZone.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/TimeZone.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/TimeZone.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asynclogging_test.dir/AsyncLogging_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/AsyncLogging_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/AsyncLogging_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/atomic_unittest.dir/Atomic_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Atomic_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Atomic_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/blockingqueue_bench.dir/BlockingQueue_bench.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/BlockingQueue_bench.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/BlockingQueue_bench.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/blockingqueue_bench2.dir/BlockingQueue_bench2.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/BlockingQueue_bench2.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/BlockingQueue_bench2.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/blockingqueue_test.dir/BlockingQueue_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/BlockingQueue_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/BlockingQueue_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/boundedblockingqueue_test.dir/BoundedBlockingQueue_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/BoundedBlockingQueue_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/BoundedBlockingQueue_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/date_unittest.dir/Date_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Date_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Date_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/exception_test.dir/Exception_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Exception_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Exception_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/fileutil_test.dir/FileUtil_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/FileUtil_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/FileUtil_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/fork_test.dir/Fork_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Fork_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Fork_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/gzipfile_test.dir/GzipFile_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/GzipFile_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/GzipFile_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/logfile_test.dir/LogFile_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/LogFile_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/LogFile_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/logging_test.dir/Logging_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Logging_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Logging_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/logstream_bench.dir/LogStream_bench.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/LogStream_bench.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/LogStream_bench.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/logstream_test.dir/LogStream_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/LogStream_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/LogStream_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/mutex_test.dir/Mutex_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Mutex_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Mutex_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/processinfo_test.dir/ProcessInfo_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/ProcessInfo_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/ProcessInfo_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/singleton_test.dir/Singleton_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Singleton_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Singleton_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/singleton_threadlocal_test.dir/SingletonThreadLocal_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/SingletonThreadLocal_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/SingletonThreadLocal_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/thread_bench.dir/Thread_bench.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Thread_bench.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Thread_bench.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/thread_test.dir/Thread_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Thread_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Thread_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/threadlocal_test.dir/ThreadLocal_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/ThreadLocal_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/ThreadLocal_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/threadlocalsingleton_test.dir/ThreadLocalSingleton_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/ThreadLocalSingleton_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/ThreadLocalSingleton_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/threadpool_test.dir/ThreadPool_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/ThreadPool_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/ThreadPool_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/timestamp_unittest.dir/Timestamp_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/Timestamp_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/Timestamp_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/timezone_unittest.dir/TimeZone_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/TimeZone_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/TimeZone_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/base/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/timezone_util.dir/TimeZone_util.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/base/tests/TimeZone_util.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/base/tests/TimeZone_util.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Acceptor.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Acceptor.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Acceptor.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Buffer.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Buffer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Buffer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Channel.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Channel.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Channel.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Connector.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Connector.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Connector.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/EventLoop.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/EventLoop.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/EventLoop.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/EventLoopThread.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/EventLoopThread.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/EventLoopThread.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/EventLoopThreadPool.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/EventLoopThreadPool.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/InetAddress.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/InetAddress.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/InetAddress.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Poller.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Poller.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Poller.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/poller/DefaultPoller.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/poller/DefaultPoller.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/poller/DefaultPoller.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/poller/EPollPoller.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/poller/EPollPoller.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/poller/EPollPoller.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/poller/PollPoller.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/poller/PollPoller.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/poller/PollPoller.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Socket.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Socket.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Socket.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/SocketsOps.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/SocketsOps.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/SocketsOps.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/TcpClient.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/TcpClient.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/TcpClient.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/TcpConnection.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/TcpConnection.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/TcpConnection.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/TcpServer.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/TcpServer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/TcpServer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/Timer.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/Timer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/Timer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_net.dir/TimerQueue.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/TimerQueue.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/TimerQueue.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/http",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/httprequest_unittest.dir/tests/HttpRequest_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/http/tests/HttpRequest_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/http/tests/HttpRequest_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/http",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/httpserver_test.dir/tests/HttpServer_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/http/tests/HttpServer_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/http/tests/HttpServer_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/http",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_http.dir/HttpServer.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/http/HttpServer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/http/HttpServer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/http",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_http.dir/HttpResponse.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/http/HttpResponse.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/http/HttpResponse.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/http",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_http.dir/HttpContext.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/http/HttpContext.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/http/HttpContext.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/inspect",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/inspector_test.dir/tests/Inspector_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/inspect/tests/Inspector_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/inspect/tests/Inspector_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/inspect",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_inspect.dir/Inspector.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/inspect/Inspector.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/inspect/Inspector.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/inspect",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_inspect.dir/PerformanceInspector.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/inspect/PerformanceInspector.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/inspect/PerformanceInspector.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/inspect",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_inspect.dir/ProcessInspector.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/inspect/ProcessInspector.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/inspect/ProcessInspector.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/inspect",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_inspect.dir/SystemInspector.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/inspect/SystemInspector.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/inspect/SystemInspector.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/buffer_unittest.dir/Buffer_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/Buffer_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/Buffer_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/channel_test.dir/Channel_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/Channel_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/Channel_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/echoclient_unittest.dir/EchoClient_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/EchoClient_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/EchoClient_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/echoserver_unittest.dir/EchoServer_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/EchoServer_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/EchoServer_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/eventloop_unittest.dir/EventLoop_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/EventLoop_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/EventLoop_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/eventloopthread_unittest.dir/EventLoopThread_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/EventLoopThread_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/EventLoopThread_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/eventloopthreadpool_unittest.dir/EventLoopThreadPool_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/EventLoopThreadPool_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/EventLoopThreadPool_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/inetaddress_unittest.dir/InetAddress_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/InetAddress_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/InetAddress_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/tcpclient_reg1.dir/TcpClient_reg1.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/TcpClient_reg1.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/TcpClient_reg1.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/tcpclient_reg2.dir/TcpClient_reg2.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/TcpClient_reg2.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/TcpClient_reg2.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/tcpclient_reg3.dir/TcpClient_reg3.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/TcpClient_reg3.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/TcpClient_reg3.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/timerqueue_unittest.dir/TimerQueue_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/TimerQueue_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/TimerQueue_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/tests",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/zlibstream_unittest.dir/ZlibStream_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/tests/ZlibStream_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/tests/ZlibStream_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protobuf",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -Wno-error=shadow -o CMakeFiles/muduo_protobuf_codec.dir/ProtobufCodecLite.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/protobuf/ProtobufCodecLite.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/protobuf/ProtobufCodecLite.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/muduo_protorpc.dir/RpcChannel.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcChannel.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcChannel.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/muduo_protorpc.dir/RpcServer.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcServer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcServer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -Wno-conversion -o CMakeFiles/muduo_protorpc_wire.dir/rpc.pb.cc.o -c /home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc/rpc.pb.cc",
+  "file": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc/rpc.pb.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/muduo_protorpc_wire.dir/RpcCodec.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcCodec.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcCodec.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/muduo/net/protorpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_wire_test.dir/RpcCodec_test.cc.o -c /home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcCodec_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/muduo/net/protorpc/RpcCodec_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/contrib/hiredis",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/mrediscli.dir/Hiredis.cc.o -c /home/myroot/linux/lib/muduo-master/contrib/hiredis/Hiredis.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/contrib/hiredis/Hiredis.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/contrib/hiredis",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/mrediscli.dir/mrediscli.cc.o -c /home/myroot/linux/lib/muduo-master/contrib/hiredis/mrediscli.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/contrib/hiredis/mrediscli.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/contrib/thrift",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_thrift.dir/ThriftConnection.cc.o -c /home/myroot/linux/lib/muduo-master/contrib/thrift/ThriftConnection.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/contrib/thrift/ThriftConnection.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/contrib/thrift",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_thrift.dir/ThriftServer.cc.o -c /home/myroot/linux/lib/muduo-master/contrib/thrift/ThriftServer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/contrib/thrift/ThriftServer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp_asio_async.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp_asio_async.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_asio_async.dir/common.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_asio_async.dir/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_asio_sync.dir/ttcp_asio_sync.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp_asio_sync.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp_asio_sync.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_asio_sync.dir/common.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_asio_sync.dir/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -Wno-error=old-style-cast -Wno-error=conversion -o CMakeFiles/ttcp_blocking.dir/ttcp_blocking.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp_blocking.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp_blocking.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -Wno-error=old-style-cast -Wno-error=conversion -o CMakeFiles/ttcp_blocking.dir/common.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -Wno-error=old-style-cast -Wno-error=conversion -o CMakeFiles/ttcp_blocking.dir/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_muduo.dir/ttcp.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/ttcp.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_muduo.dir/common.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/common.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/ttcp",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/ttcp_muduo.dir/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/ttcp/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/chat",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_chat_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/chat/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/chat/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/chat",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_chat_loadtest.dir/loadtest.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/chat/loadtest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/chat/loadtest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/chat",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_chat_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/chat/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/chat/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/chat",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_chat_server_threaded.dir/server_threaded.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/chat/server_threaded.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/chat/server_threaded.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/chat",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_chat_server_threaded_efficient.dir/server_threaded_efficient.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/chat/server_threaded_efficient.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/chat/server_threaded_efficient.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/chat",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_chat_server_threaded_highperformance.dir/server_threaded_highperformance.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/chat/server_threaded_highperformance.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/chat/server_threaded_highperformance.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/tutorial",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer2/timer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer2/timer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/tutorial",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer3/timer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer3/timer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/tutorial",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer4/timer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer4/timer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/tutorial",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer5/timer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer5/timer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/asio/tutorial",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer6/timer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/asio/tutorial/timer6/timer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/fastcgi",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/fastcgi_test.dir/fastcgi.cc.o -c /home/myroot/linux/lib/muduo-master/examples/fastcgi/fastcgi.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/fastcgi/fastcgi.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/fastcgi",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/fastcgi_test.dir/fastcgi_test.cc.o -c /home/myroot/linux/lib/muduo-master/examples/fastcgi/fastcgi_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/fastcgi/fastcgi_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/fastcgi",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/fastcgi_test.dir/__/sudoku/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/filetransfer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/filetransfer_download.dir/download.cc.o -c /home/myroot/linux/lib/muduo-master/examples/filetransfer/download.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/filetransfer/download.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/filetransfer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/filetransfer_download2.dir/download2.cc.o -c /home/myroot/linux/lib/muduo-master/examples/filetransfer/download2.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/filetransfer/download2.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/filetransfer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/filetransfer_download3.dir/download3.cc.o -c /home/myroot/linux/lib/muduo-master/examples/filetransfer/download3.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/filetransfer/download3.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/hub",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/hub.dir/hub.cc.o -c /home/myroot/linux/lib/muduo-master/examples/hub/hub.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/hub/hub.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/hub",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/hub.dir/codec.cc.o -c /home/myroot/linux/lib/muduo-master/examples/hub/codec.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/hub/codec.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/hub",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_pubsub.dir/pubsub.cc.o -c /home/myroot/linux/lib/muduo-master/examples/hub/pubsub.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/hub/pubsub.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/hub",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_pubsub.dir/codec.cc.o -c /home/myroot/linux/lib/muduo-master/examples/hub/codec.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/hub/codec.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/hub",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/pub.dir/pub.cc.o -c /home/myroot/linux/lib/muduo-master/examples/hub/pub.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/hub/pub.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/hub",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sub.dir/sub.cc.o -c /home/myroot/linux/lib/muduo-master/examples/hub/sub.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/hub/sub.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/idleconnection",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/idleconnection_echo.dir/echo.cc.o -c /home/myroot/linux/lib/muduo-master/examples/idleconnection/echo.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/idleconnection/echo.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/idleconnection",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/idleconnection_echo.dir/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/idleconnection/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/idleconnection/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/idleconnection",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/idleconnection_echo2.dir/sortedlist.cc.o -c /home/myroot/linux/lib/muduo-master/examples/idleconnection/sortedlist.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/idleconnection/sortedlist.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/maxconnection",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/maxconnection_echo.dir/echo.cc.o -c /home/myroot/linux/lib/muduo-master/examples/maxconnection/echo.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/maxconnection/echo.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/maxconnection",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/maxconnection_echo.dir/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/maxconnection/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/maxconnection/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/client",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_bench.dir/bench.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/client/bench.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/client/bench.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_debug.dir/Item.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/Item.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/Item.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/MemcacheServer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/MemcacheServer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_debug.dir/Session.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/Session.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/Session.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_debug.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_footprint.dir/Item.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/Item.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/Item.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/MemcacheServer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/MemcacheServer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_footprint.dir/Session.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/Session.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/Session.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/memcached/server",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/memcached_footprint.dir/footprint_test.cc.o -c /home/myroot/linux/lib/muduo-master/examples/memcached/server/footprint_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/memcached/server/footprint_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/multiplexer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/multiplex_demux.dir/demux.cc.o -c /home/myroot/linux/lib/muduo-master/examples/multiplexer/demux.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/multiplexer/demux.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/multiplexer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/multiplex_server.dir/multiplexer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/multiplexer/multiplexer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/multiplexer/multiplexer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/multiplexer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/multiplex_server_simple.dir/multiplexer_simple.cc.o -c /home/myroot/linux/lib/muduo-master/examples/multiplexer/multiplexer_simple.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/multiplexer/multiplexer_simple.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/netty/discard",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/netty_discard_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/netty/discard/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/netty/discard/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/netty/discard",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/netty_discard_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/netty/discard/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/netty/discard/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/netty/echo",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/netty_echo_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/netty/echo/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/netty/echo/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/netty/echo",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/netty_echo_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/netty/echo/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/netty/echo/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/netty/echo",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/netty_echo_server2.dir/server2.cc.o -c /home/myroot/linux/lib/muduo-master/examples/netty/echo/server2.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/netty/echo/server2.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/netty/uptime",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/netty_uptime.dir/uptime.cc.o -c /home/myroot/linux/lib/muduo-master/examples/netty/uptime/uptime.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/netty/uptime/uptime.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/pingpong",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/pingpong_bench.dir/bench.cc.o -c /home/myroot/linux/lib/muduo-master/examples/pingpong/bench.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/pingpong/bench.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/pingpong",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/pingpong_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/pingpong/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/pingpong/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/pingpong",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/pingpong_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/pingpong/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/pingpong/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/roundtrip",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/roundtrip.dir/roundtrip.cc.o -c /home/myroot/linux/lib/muduo-master/examples/roundtrip/roundtrip.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/roundtrip/roundtrip.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/roundtrip",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/roundtrip_udp.dir/roundtrip_udp.cc.o -c /home/myroot/linux/lib/muduo-master/examples/roundtrip/roundtrip_udp.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/roundtrip/roundtrip_udp.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/shorturl",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/shorturl.dir/shorturl.cc.o -c /home/myroot/linux/lib/muduo-master/examples/shorturl/shorturl.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/shorturl/shorturl.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_allinone.dir/allinone/allinone.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/allinone/allinone.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/allinone/allinone.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_allinone.dir/chargen/chargen.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/chargen/chargen.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/chargen/chargen.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_allinone.dir/daytime/daytime.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/daytime/daytime.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/daytime/daytime.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_allinone.dir/discard/discard.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/discard/discard.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/discard/discard.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_allinone.dir/echo/echo.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/echo/echo.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/echo/echo.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_allinone.dir/time/time.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/time/time.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/time/time.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_chargen.dir/chargen/chargen.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/chargen/chargen.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/chargen/chargen.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_chargen.dir/chargen/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/chargen/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/chargen/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_chargenclient.dir/chargenclient/chargenclient.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/chargenclient/chargenclient.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/chargenclient/chargenclient.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/daytime/daytime.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/daytime/daytime.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_daytime.dir/daytime/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/daytime/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/daytime/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_discard.dir/discard/discard.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/discard/discard.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/discard/discard.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_discard.dir/discard/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/discard/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/discard/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_echo.dir/echo/echo.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/echo/echo.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/echo/echo.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_echo.dir/echo/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/echo/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/echo/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_time.dir/time/time.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/time/time.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/time/time.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_time.dir/time/main.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/time/main.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/time/main.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/simple",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/simple_timeclient.dir/timeclient/timeclient.cc.o -c /home/myroot/linux/lib/muduo-master/examples/simple/timeclient/timeclient.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/simple/timeclient/timeclient.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/socks4a",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/balancer.dir/balancer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/socks4a/balancer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/socks4a/balancer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/socks4a",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/socks4a.dir/socks4a.cc.o -c /home/myroot/linux/lib/muduo-master/examples/socks4a/socks4a.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/socks4a/socks4a.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/socks4a",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/tcprelay.dir/tcprelay.cc.o -c /home/myroot/linux/lib/muduo-master/examples/socks4a/tcprelay.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/socks4a/tcprelay.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_client_batch.dir/batch.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/batch.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/batch.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_client_batch.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_client_pipeline.dir/pipeline.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/pipeline.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/pipeline.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_client_pipeline.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_loadtest.dir/loadtest.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/loadtest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/loadtest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_loadtest.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_basic.dir/server_basic.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/server_basic.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/server_basic.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_basic.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_hybrid.dir/server_hybrid.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/server_hybrid.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/server_hybrid.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_hybrid.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_multiloop.dir/server_multiloop.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/server_multiloop.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/server_multiloop.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_multiloop.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_prod.dir/server_prod.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/server_prod.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/server_prod.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_prod.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_threadpool.dir/server_threadpool.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/server_threadpool.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/server_threadpool.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_solver_threadpool.dir/sudoku.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/sudoku.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/sudoku",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/sudoku_stat_unittest.dir/stat_unittest.cc.o -c /home/myroot/linux/lib/muduo-master/examples/sudoku/stat_unittest.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/sudoku/stat_unittest.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger01.dir/finger01.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger01.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger01.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger02.dir/finger02.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger02.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger02.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger03.dir/finger03.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger03.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger03.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger04.dir/finger04.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger04.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger04.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger05.dir/finger05.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger05.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger05.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger06.dir/finger06.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger06.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger06.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/twisted/finger",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/twisted_finger07.dir/finger07.cc.o -c /home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger07.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/twisted/finger/finger07.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/wordcount",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/wordcount_hasher.dir/hasher.cc.o -c /home/myroot/linux/lib/muduo-master/examples/wordcount/hasher.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/wordcount/hasher.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/wordcount",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/wordcount_receiver.dir/receiver.cc.o -c /home/myroot/linux/lib/muduo-master/examples/wordcount/receiver.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/wordcount/receiver.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/zeromq",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/zeromq_local_lat.dir/local_lat.cc.o -c /home/myroot/linux/lib/muduo-master/examples/zeromq/local_lat.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/zeromq/local_lat.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/zeromq",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/zeromq_remote_lat.dir/remote_lat.cc.o -c /home/myroot/linux/lib/muduo-master/examples/zeromq/remote_lat.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/zeromq/remote_lat.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/cdns",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/cdns.dir/dns.cc.o -c /home/myroot/linux/lib/muduo-master/examples/cdns/dns.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/cdns/dns.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/cdns",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_cdns.dir/Resolver.cc.o -c /home/myroot/linux/lib/muduo-master/examples/cdns/Resolver.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/cdns/Resolver.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/curl",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/curl_download.dir/download.cc.o -c /home/myroot/linux/lib/muduo-master/examples/curl/download.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/curl/download.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/curl",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/mcurl.dir/mcurl.cc.o -c /home/myroot/linux/lib/muduo-master/examples/curl/mcurl.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/curl/mcurl.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/curl",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/muduo_curl.dir/Curl.cc.o -c /home/myroot/linux/lib/muduo-master/examples/curl/Curl.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/curl/Curl.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/logging",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/ace_logging_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/logging/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/logging/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/logging",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-conversion -Wno-shadow -o CMakeFiles/ace_logging_proto.dir/logrecord.pb.cc.o -c /home/myroot/linux/lib/build/release-cpp11/examples/ace/logging/logrecord.pb.cc",
+  "file": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/logging/logrecord.pb.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/ace/logging",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/ace_logging_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/ace/logging/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/ace/logging/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/codec/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/codec/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -o CMakeFiles/protobuf_codec.dir/codec.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/codec/codec.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/codec/codec.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_codec_test.dir/codec_test.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/codec/codec_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/codec/codec_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_dispatcher_lite_test.dir/dispatcher_lite_test.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/codec/dispatcher_lite_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/codec/dispatcher_lite_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_dispatcher_test.dir/dispatcher_test.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/codec/dispatcher_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/codec/dispatcher_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/codec/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/codec/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-conversion -Wno-shadow -o CMakeFiles/query_proto.dir/query.pb.cc.o -c /home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec/query.pb.cc",
+  "file": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/codec/query.pb.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_sudoku_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/rpc/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/rpc/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_sudoku_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/rpc/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/rpc/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpc",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-conversion -Wno-shadow -o CMakeFiles/sudoku_proto.dir/sudoku.pb.cc.o -c /home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpc/sudoku.pb.cc",
+  "file": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpc/sudoku.pb.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbalancer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_balancer.dir/balancer.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbalancer/balancer.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbalancer/balancer.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbalancer",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_balancer_raw.dir/balancer_raw.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbalancer/balancer_raw.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbalancer/balancer_raw.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbench",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-conversion -Wno-shadow -o CMakeFiles/echo_proto.dir/echo.pb.cc.o -c /home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbench/echo.pb.cc",
+  "file": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbench/echo.pb.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbench",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_echo_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbench/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbench/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/rpcbench",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_echo_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbench/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/rpcbench/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/resolver",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_resolver_client.dir/client.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/resolver/client.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/resolver/client.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/resolver",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-error=shadow -o CMakeFiles/protobuf_rpc_resolver_server.dir/server.cc.o -c /home/myroot/linux/lib/muduo-master/examples/protobuf/resolver/server.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/protobuf/resolver/server.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/resolver",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master -I/home/myroot/linux/lib/build/release-cpp11    -Wno-conversion -Wno-shadow -o CMakeFiles/resolver_proto.dir/resolver.pb.cc.o -c /home/myroot/linux/lib/build/release-cpp11/examples/protobuf/resolver/resolver.pb.cc",
+  "file": "/home/myroot/linux/lib/build/release-cpp11/examples/protobuf/resolver/resolver.pb.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/procmon",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/dummyload.dir/dummyload.cc.o -c /home/myroot/linux/lib/muduo-master/examples/procmon/dummyload.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/procmon/dummyload.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/procmon",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/plot_test.dir/plot_test.cc.o -c /home/myroot/linux/lib/muduo-master/examples/procmon/plot_test.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/procmon/plot_test.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/procmon",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/plot_test.dir/plot.cc.o -c /home/myroot/linux/lib/muduo-master/examples/procmon/plot.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/procmon/plot.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/procmon",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/procmon.dir/procmon.cc.o -c /home/myroot/linux/lib/muduo-master/examples/procmon/procmon.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/procmon/procmon.cc"
+},
+{
+  "directory": "/home/myroot/linux/lib/build/release-cpp11/examples/procmon",
+  "command": "/opt/rh/devtoolset-7/root/usr/bin/c++    -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG -I/home/myroot/linux/lib/muduo-master    -o CMakeFiles/procmon.dir/plot.cc.o -c /home/myroot/linux/lib/muduo-master/examples/procmon/plot.cc",
+  "file": "/home/myroot/linux/lib/muduo-master/examples/procmon/plot.cc"
+}
+]

@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../../lib/libmuduo_inspect.a  CMakeFiles/muduo_inspect.dir/Inspector.cc.o CMakeFiles/muduo_inspect.dir/PerformanceInspector.cc.o CMakeFiles/muduo_inspect.dir/ProcessInspector.cc.o CMakeFiles/muduo_inspect.dir/SystemInspector.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../../lib/libmuduo_inspect.a

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/myroot/linux/lib/muduo-master/muduo/base/FileUtil.h
+muduo/base/noncopyable.h
+/home/myroot/linux/lib/muduo-master/muduo/base/muduo/base/noncopyable.h
+muduo/base/StringPiece.h
+/home/myroot/linux/lib/muduo-master/muduo/base/muduo/base/StringPiece.h
+sys/types.h
+-
+
+/home/myroot/linux/lib/muduo-master/muduo/base/StringPiece.h
+string.h
+-
+iosfwd
+-
+muduo/base/Types.h
+/home/myroot/linux/lib/muduo-master/muduo/base/muduo/base/Types.h
+
+/home/myroot/linux/lib/muduo-master/muduo/base/Types.h
+stdint.h
+-
+string.h
+-
+string
+-
+assert.h
+-
+
+/home/myroot/linux/lib/muduo-master/muduo/base/noncopyable.h
+
+/home/myroot/linux/lib/muduo-master/muduo/base/tests/FileUtil_test.cc
+muduo/base/FileUtil.h
+/home/myroot/linux/lib/muduo-master/muduo/base/tests/muduo/base/FileUtil.h
+stdio.h
+-
+inttypes.h
+-
+

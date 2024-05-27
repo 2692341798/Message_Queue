@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../../lib/libresolver_proto.a  CMakeFiles/resolver_proto.dir/resolver.pb.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../../lib/libresolver_proto.a

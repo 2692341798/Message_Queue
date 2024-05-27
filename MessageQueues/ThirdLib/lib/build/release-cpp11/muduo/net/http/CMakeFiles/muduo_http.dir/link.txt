@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../../lib/libmuduo_http.a  CMakeFiles/muduo_http.dir/HttpServer.cc.o CMakeFiles/muduo_http.dir/HttpResponse.cc.o CMakeFiles/muduo_http.dir/HttpContext.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../../lib/libmuduo_http.a

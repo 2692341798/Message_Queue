@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../../lib/libecho_proto.a  CMakeFiles/echo_proto.dir/echo.pb.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../../lib/libecho_proto.a

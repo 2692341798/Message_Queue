@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../lib/libmuduo_thrift.a  CMakeFiles/muduo_thrift.dir/ThriftConnection.cc.o CMakeFiles/muduo_thrift.dir/ThriftServer.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../lib/libmuduo_thrift.a

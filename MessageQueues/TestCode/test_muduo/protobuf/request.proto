@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package HQJ;
+
+message tanslate_request
+{
+  string word = 1;
+};
+
+message tanslate_respond
+{
+  string word = 1;
+};
+
+message add_request
+{
+  uint64 a = 1;
+  uint64 b = 2;
+};
+
+message add_respond
+{
+  uint64 result = 1;
+};
