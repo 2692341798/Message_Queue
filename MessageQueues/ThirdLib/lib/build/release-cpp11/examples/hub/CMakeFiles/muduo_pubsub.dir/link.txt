@@ -1,2 +1,0 @@
-/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../lib/libmuduo_pubsub.a  CMakeFiles/muduo_pubsub.dir/pubsub.cc.o CMakeFiles/muduo_pubsub.dir/codec.cc.o
-/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../lib/libmuduo_pubsub.a

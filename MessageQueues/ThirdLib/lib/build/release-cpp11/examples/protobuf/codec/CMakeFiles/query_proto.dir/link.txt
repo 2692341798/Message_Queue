@@ -1,2 +1,0 @@
-/opt/rh/devtoolset-7/root/usr/bin/ar cr ../../../lib/libquery_proto.a  CMakeFiles/query_proto.dir/query.pb.cc.o
-/opt/rh/devtoolset-7/root/usr/bin/ranlib ../../../lib/libquery_proto.a
