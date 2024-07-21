@@ -14,6 +14,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <vector>
+#include<cstring>
+#include<cerrno>
 
 class SqliteHelper
 {
@@ -244,7 +246,7 @@ public:
   // 重命名
   bool rename(const std::string &newfilename)
   {
-    return (::rename(_filename.c_str(), nname.c_str()) == 0);
+    return (::rename(_filename.c_str(),  newfilename.c_str()) == 0);
   }
 
   // 获取父目录
@@ -293,7 +295,7 @@ public:
       }
 
       std::string subpath = path.substr(0, pos);
-      int ret = ::mkdir(path.c_str(), 0775);
+      int ret = ::mkdir(subpath.c_str(), 0775);
       if (ret != 0 && errno != EEXIST)
       {
         ELOG("创建目录 %s 失败: %s", subpath.c_str(), strerror(errno));
@@ -306,7 +308,7 @@ public:
   // 删除目录
   static bool removeDirectory(const std::string &path)
   {
-    std::string command = "rm -rf" + path.c_str();
+    std::string command = "rm -rf " + path;
     return (::system(command.c_str()) != -1);
   }
 
