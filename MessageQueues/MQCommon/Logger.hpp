@@ -1,37 +1,30 @@
-// 防止头文件被重复包含  
-#ifndef __M_LOG_H__  
-#define __M_LOG_H__  
-  
-#include <ctime>  
-#include <iostream>  
-  
-// 定义日志级别  
-#define DBG_LEVEL 0 // 调试级别  
-#define INF_LEVEL 1 // 信息级别  
-#define ERR_LEVEL 2 // 错误级别  
-#define DEFAULT_LEVEL DBG_LEVEL // 默认日志级别  
-  
-// LOG宏定义，用于输出日志  
-// 参数：日志级别字符串、日志级别、格式化字符串、可变参数列表  
-#define LOG(lev_str, level, format, ...)                                                           \  
-  {                                                                                                \  
-    if (level >= DEFAULT_LEVEL)                                                                    \  
-    {                                                                                              \  
-      time_t tmp = time(nullptr);                                                                  \  
-      struct tm *time = localtime(&tmp);                                                           \  
-      char str_time[32];                                                                           \  
-      size_t ret = strftime(str_time, 31, "%D %H:%M:%S", time);                              \  
-      printf("[%s][%s][%s:%d]\t" format "\n", lev_str, str_time, __FILE__, __LINE__, ##__VA_ARGS__); \  
-    }                                                                                              \  
-  }  
-  
-// DLOG宏定义，用于输出调试级别的日志  
-#define DLOG(format, ...) LOG("DBG", DBG_LEVEL, format, ##__VA_ARGS__)  
-  
-// ILOG宏定义，用于输出信息级别的日志  
-#define ILOG(format, ...) LOG("INF", INF_LEVEL, format, ##__VA_ARGS__)  
-  
-// ELOG宏定义，用于输出错误级别的日志  
-#define ELOG(format, ...) LOG("ERR", ERR_LEVEL, format, ##__VA_ARGS__)  
-  
+// 防止头文件被重复包含
+#ifndef __M_LOG_H__
+#define __M_LOG_H__
+
+#include <ctime>
+#include <iostream>
+
+// 定义日志级别
+
+#define DBG_LEVEL 0
+#define INF_LEVEL 1
+#define ERR_LEVEL 2
+#define DEFAULT_LEVEL DBG_LEVEL
+
+#define LOG(lev_str, level, format, ...)                                                             \
+  {                                                                                                  \
+    if (level >= DEFAULT_LEVEL)                                                                      \
+    {                                                                                                \
+      time_t tmp = time(nullptr);                                                                    \
+      struct tm *time = localtime(&tmp);                                                             \
+      char str_time[32];                                                                             \
+      size_t ret = strftime(str_time, 31, "%D %H:%M:%S", time);                                      \
+      printf("[%s][%s][%s:%d]\t" format "\n", lev_str, str_time, __FILE__, __LINE__, ##__VA_ARGS__); \
+    }                                                                                                \
+  }
+
+#define DLOG(format, ...) LOG("DBG", DBG_LEVEL, format, ##__VA_ARGS__)
+#define ILOG(format, ...) LOG("INF", INF_LEVEL, format, ##__VA_ARGS__)
+#define ELOG(format, ...) LOG("ERR", ERR_LEVEL, format, ##__VA_ARGS__)
 #endif
