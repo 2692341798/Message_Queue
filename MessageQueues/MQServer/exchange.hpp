@@ -46,16 +46,13 @@ namespace MQ
       }
     }
 
-    std::string getArgs()
-    {
-      std::string result = "";
-      for (auto& start : _args)
-      {
-        std::cout<<start.first<<' '<<start.second<<std::endl;
-        result += start.first + "=" + start.second + "&";
-      }
-      return result;
-    }
+    std::string getArgs() {
+            std::string result;
+            for (auto start = _args.begin(); start != _args.end(); ++start) {
+                result += start->first + "=" + start->second + "&";
+            }
+            return result;
+        }
   };
 
   using ExchangeMap = std::unordered_map<std::string, Exchange::ptr>;
