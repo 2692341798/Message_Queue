@@ -1,4 +1,4 @@
-#include "../MQServer/exchange.hpp"
+#include "../MQServer/Exchange.hpp"
 #include <gtest/gtest.h>
 #include<unordered_map>
 MQ::ExchangeManager::ptr emp;
@@ -12,7 +12,7 @@ public:
   }
   virtual void TearDown() override
   {
-    // emp->clear();
+    emp->clear();
     std::cout << "最后的清理！！\n";
   }
 };
@@ -35,15 +35,15 @@ TEST(exchange_test, insert_test)
 
 TEST(exchange_test, select_test)
 {
-  ASSERT_EQ(emp->exists("exchange1"), true);
+  ASSERT_EQ(emp->exists("exchange1"), false);
   ASSERT_EQ(emp->exists("exchange2"), true);
   ASSERT_EQ(emp->exists("exchange3"), true);
   ASSERT_EQ(emp->exists("exchange4"), true);
-  MQ::Exchange::ptr exp = emp->selectExchange("exchange2");
+  MQ::Exchange::ptr exp = emp->selectExchange("exchange1");
   ASSERT_NE(exp.get(), nullptr);
-  ASSERT_EQ(exp->_name, "exchange2");
-  ASSERT_EQ(exp->_is_durable, true);
-  ASSERT_EQ(exp->_is_auto_del, false);
+  ASSERT_EQ(exp->_name, "exchange1");
+  ASSERT_EQ(exp->_durable, true);
+  ASSERT_EQ(exp->_auto_delete, false);
   ASSERT_EQ(exp->_type, MQ::ExchangeType::DIRECT);
   ASSERT_EQ(exp->getArgs(), std::string("k1=v1&k2=v2&"));
 }

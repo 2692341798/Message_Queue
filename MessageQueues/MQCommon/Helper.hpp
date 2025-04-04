@@ -3,6 +3,8 @@
 
 #include "Logger.hpp"
 #include <atomic>
+#include <cerrno>
+#include <cstring>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -14,15 +16,14 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <vector>
-#include<cstring>
-#include<cerrno>
 
 class SqliteHelper
 {
 public:
   // 定义一个回调函数类型，用于sqlite3_exec的回调
   typedef int (*SqliteCallback)(void *, int, char **, char **);
-
+  SqliteHelper(){}
+  
   // 构造函数，接收数据库文件名
   SqliteHelper(const std::string dbfilename)
       : _dbfilename(dbfilename)
@@ -150,6 +151,7 @@ public:
   }
 };
 
+//文件操作类
 class FileHelper
 {
 public:
@@ -238,15 +240,22 @@ public:
     fs.close();
     return true;
   }
+
   bool write(const std::string &body)
   {
+    //如果文件有内容，则删除源文件，重新生成名为filename的文件
+    if (size() > 0)
+    {
+      removeFile(_filename);
+      FileHelper::createFile(_filename);
+    }
     return write(body.c_str(), 0, body.size());
   }
 
   // 重命名
   bool rename(const std::string &newfilename)
   {
-    return (::rename(_filename.c_str(),  newfilename.c_str()) == 0);
+    return (::rename(_filename.c_str(), newfilename.c_str()) == 0);
   }
 
   // 获取父目录

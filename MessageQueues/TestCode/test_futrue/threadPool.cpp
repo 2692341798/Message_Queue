@@ -33,16 +33,15 @@ public:
   }
 
   // 模板函数，用于向线程池中添加任务
-  // 返回一个future，包含任务的返回值（如果有的话）
+  // 返回一个future，包含任务的返回值
   template <typename F, typename... Args>
-  auto push(const F &&func, Args &&...args)
-      -> std::future<decltype(func(args...))>
+  auto push(const F &&func, Args &&...args)-> std::future<decltype(func(args...))>
   {
     //无参函数对象->packaged_task->任务对象智能指针
     // 将传入的函数及函数的参数绑定为一个无参函数对象，之后再构造一个智能指针去管理一个packaged_task对象，最后封装为任务指针，放入任务池
     //封装为任务指针是因为packaged_task并不是一个函数对象,不可以直接传给线程执行
     using return_type = decltype(func(args...));
-    auto function = std::bind(std::forward<F>(func), std::forward<Args>(args)...);//...是参数包的展开
+    auto function = std::bind(std::forward<F>(func), std::forward<Args>(args)...);//参数包的展开
     auto task = std::make_shared<std::packaged_task<return_type()>>(function);
 
     std::future<return_type> fu = task->get_future();
@@ -50,8 +49,7 @@ public:
     {
       std::unique_lock<std::mutex> uniLock(_mutex);
       // 将任务添加到任务队列中,这里添加进去的是lamda函数对象，并不是task指针
-      _tasks.emplace_back([task]()
-                          { (*task)(); });
+      _tasks.emplace_back([task](){ (*task)(); });
       // 通知一个等待线程有任务可处理
       _conv.notify_one();
     }
@@ -62,8 +60,7 @@ public:
   bool Stop()
   {
     // 如果已经停止，则直接返回true
-    if (_stop == true)
-      return true;
+    if (_stop == true)return true;
     _stop = true;
 
     // 通知所有等待线程停止
@@ -79,7 +76,7 @@ public:
   }
 
 private:
-  bool Entry()
+  void Entry()
   {
     // 当_stop标志为false时，表示线程池仍在运行，持续处理任务
     while (false == _stop)
@@ -88,11 +85,11 @@ private:
 
       {
         // 加锁，保护对共享资源（如_tasks和_stop）的访问
-        std::unique_lock<std::mutex> lock(_mutex);
+        std::unique_lock<std::mutex> 
+        lock(_mutex);
 
         // 等待条件满足：任务池不为空，或者收到停止信号
-        _conv.wait(lock, [this]()
-                   { return _stop || !_tasks.empty(); });
+        _conv.wait(lock, [this](){ return _stop || !_tasks.empty(); });
 
         // 条件满足后，将_tasks中的任务转移到临时任务池tmp_tasks中
         // 这样做是为了避免在持有锁的情况下执行任务，从而提高效率
@@ -107,7 +104,7 @@ private:
     }
 
     // 当_stop为true时，退出循环，函数返回
-    return true;
+    return;
   }
 
 private:
