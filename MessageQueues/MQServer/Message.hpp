@@ -443,6 +443,7 @@ namespace MQ
       }
       return qmp->insert(bp, body, queue_is_durable);
     }
+    
     MessagePtr front(const std::string &qname)
     {
       QueueMessage::ptr qmp;
@@ -451,7 +452,7 @@ namespace MQ
         auto it = _queue_msgs.find(qname);
         if (it == _queue_msgs.end())
         {
-          ELOG("获取队列%s队首消息失败：没有找到消息管理句柄!", qname.c_str());
+          DLOG("获取队列%s队首消息失败：没有找到消息管理句柄!", qname.c_str());
           return MessagePtr();
         }
         qmp = it->second;

@@ -22,14 +22,14 @@ namespace MQ {
         //4. 是否自动删除标志
         bool _auto_delete;
         //5. 其他参数
-        google::protobuf::Map<std::string, std::string> _args;
+        std::unordered_map<std::string, std::string> _args;
 
         Exchange() {}
         Exchange(const std::string &ename, 
             MQ::ExchangeType etype, 
             bool edurable,
             bool eauto_delete,
-            const google::protobuf::Map<std::string, std::string> &eargs):
+            const std::unordered_map<std::string, std::string> &eargs):
             _name(ename), _type(etype), _durable(edurable), 
             _auto_delete(eauto_delete), _args(eargs) {}
         //args存储键值对，在存储数据库的时候，会组织一个格式字符串进行存储 key=val&key=val....
@@ -133,7 +133,7 @@ namespace MQ {
             //声明交换机
             bool declareExchange(const std::string &name,
                 MQ::ExchangeType type, bool durable, bool auto_delete,
-                const google::protobuf::Map<std::string, std::string> &args) {
+                const std::unordered_map<std::string, std::string> &args) {
                 std::unique_lock<std::mutex> lock(_mutex);
                 auto it = _exchanges.find(name);
                 if (it != _exchanges.end()) {
