@@ -1,6 +1,7 @@
-all:Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message
+all:Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message Test_VirtualHost
 
-
+Test_VirtualHost:Test_VirtualHost.cpp ../MQCommon/message.pb.cc
+	g++ -g -o $@ $^ -std=c++11 -lgtest -lprotobuf -lsqlite3 -pthread
 
 Test_Binding:Test_Binding.cpp
 	g++ -g -o $@ $^ -std=c++11 -lgtest -lprotobuf -lsqlite3 -pthread
@@ -19,4 +20,4 @@ Test_Message:Test_Message.cpp ../MQCommon/message.pb.cc
 
 .PHONY:
 clean:
-	rm -rf Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message
+	rm -rf Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message Test_VirtualHost

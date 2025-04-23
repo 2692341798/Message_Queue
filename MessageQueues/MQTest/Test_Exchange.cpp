@@ -20,7 +20,7 @@ public:
 TEST(exchange_test, insert_test)
 {
   std::unordered_map<std::string, std::string> tmp =  {{"k1","v1"},{"k2","v2"}};
-  google::protobuf::Map<std::string, std::string> map;
+  std::unordered_map<std::string, std::string> map;
   map.insert(tmp.begin(),tmp.end());
   for(auto& a : map)
   {
