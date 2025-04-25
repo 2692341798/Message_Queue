@@ -19,16 +19,16 @@ enum DeliveryMode {
 
 //基本属性
 message BasicProperties{
-  string id = 1;
-  DeliveryMode delivery_mode = 2;
-  string routing_key = 3;
+  string id = 1;//消息ID
+  DeliveryMode delivery_mode = 2;//消息广播模式
+  string routing_key = 3;//消息路由键
 };
 
 //有效载荷
 message Payload {
-  BasicProperties properties = 1;
-  string body = 2;
-  string valid = 3;
+  BasicProperties properties = 1;//消息基本属性
+  string body = 2;//消息体
+  string valid = 3;//是否有效
 };
 
 //成员：有效载荷、偏移量、大小
