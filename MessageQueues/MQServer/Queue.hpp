@@ -19,10 +19,10 @@ namespace MQ
     bool _durable;
     bool _exclusive;
     bool _auto_delete;
-    std::unordered_map<std::string, std::string> _args;
+    google::protobuf::Map<std::string, std::string> _args;
 
     Queue() {}
-    Queue(const std::string& name, bool durable, bool exclusive, bool auto_delete, const std::unordered_map<std::string, std::string>& args)
+    Queue(const std::string &name, bool durable, bool exclusive, bool auto_delete, const google::protobuf::Map<std::string, std::string> &args)
         : _name(name),
           _durable(durable),
           _exclusive(exclusive),
@@ -31,7 +31,7 @@ namespace MQ
     {
     }
 
-    bool setArgs(const std::string& str_args)
+    bool setArgs(const std::string &str_args)
     {
       std::vector<std::string> sub_args;
       StrHelper::split(str_args, "&", sub_args);
@@ -45,7 +45,7 @@ namespace MQ
         }
         std::string key = str.substr(0, pos);
         std::string value = str.substr(pos + 1);
-        _args.insert(std::make_pair(key, value));
+        _args[key] = value;
       }
       return true;
     }
@@ -169,7 +169,8 @@ namespace MQ
       queue->_durable = (bool)std::stoi(row[1]);
       queue->_exclusive = (bool)std::stoi(row[2]);
       queue->_auto_delete = (bool)std::stoi(row[3]);
-      if (row[4])queue->setArgs(row[4]);
+      if (row[4])
+        queue->setArgs(row[4]);
       result->insert(std::make_pair(queue->_name, queue));
       return 0;
     }
@@ -184,14 +185,14 @@ namespace MQ
     using ptr = std::shared_ptr<QueueManager>;
     QueueManager(const std::string &db_file) : _queueMapper(db_file)
     {
-       _queues = _queueMapper.recovery();
+      _queues = _queueMapper.recovery();
     }
 
-    bool declareQueue(const std::string &name, 
-    bool durable, 
-    bool exclusive, 
-    bool auto_delete, 
-    const std::unordered_map<std::string, std::string>&args)
+    bool declareQueue(const std::string &name,
+                      bool durable,
+                      bool exclusive,
+                      bool auto_delete,
+                      const google::protobuf::Map<std::string, std::string> &args)
     {
       std::unique_lock<std::mutex> lock(_mutex);
       // 查找该队列是否存在

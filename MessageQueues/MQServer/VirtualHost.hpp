@@ -35,7 +35,7 @@ namespace MQ
 
     bool declareExchange(const std::string &name,
                          ExchangeType type, bool durable, bool auto_delete,
-                         const std::unordered_map<std::string, std::string> &args)
+                         const google::protobuf::Map<std::string, std::string> &args)
     {
 
       return _exchange_manager_pointer->declareExchange(name, type, durable, auto_delete, args);
@@ -62,7 +62,7 @@ namespace MQ
                       bool qdurable,
                       bool qexclusive,
                       bool qauto_delete,
-                      const std::unordered_map<std::string, std::string> &qargs)
+                      const google::protobuf::Map<std::string, std::string> &qargs)
     {
       // 初始化队列的消息句柄（消息的存储管理）
       // 队列的创建
