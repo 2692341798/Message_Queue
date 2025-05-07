@@ -84,7 +84,7 @@ namespace MQ
       // 返回
       return resp->ok();
     }
-    
+
     void deleteExchange(const std::string &name)
     {
       std::string rid = UUIDHelper::uuid();
@@ -92,7 +92,7 @@ namespace MQ
       req.set_rid(rid);
       req.set_cid(_channel_id);
       req.set_exchange_name(name);
-      _codec_ptr->send(_connection_ptr,req);
+      _codec_ptr->send(_connection_ptr, req);
       waitResponse(rid);
       return;
     }
@@ -193,7 +193,7 @@ namespace MQ
       req.set_cid(_channel_id);
       req.set_queue_name(_subscriber_ptr->_subscribe_queue_name);
       req.set_message_id(msgid);
-      _codec_ptr->send(_connection_ptr,req);
+      _codec_ptr->send(_connection_ptr, req);
       waitResponse(rid);
       return;
     }
@@ -245,37 +245,43 @@ namespace MQ
       return true;
     }
 
-  public:   
-            //连接收到基础响应后，向hash_map中添加响应
-            void putBasicResponse(const basicCommonResponsePtr& resp) {
-                std::unique_lock<std::mutex> lock(_mutex);
-                _basic_resp.insert(std::make_pair(resp->rid(), resp));
-                _cv.notify_all();
-            }
-            
-            //连接收到消息推送后，需要通过信道找到对应的消费者对象，通过回调函数进行消息处理
-            void consume(const basicConsumeResponsePtr& resp) {
-                if (_subscriber_ptr.get() == nullptr) {
-                    DLOG("消息处理时，未找到订阅者信息！");
-                    return;
-                }
-                if (_subscriber_ptr->_subscribe_queue_tag != resp->consumer_tag()) {
-                    DLOG("收到的推送消息中的消费者标识，与当前信道消费者标识不一致！");
-                    return ;
-                }
-                _subscriber_ptr->_callback(resp->consumer_tag(), resp->mutable_properties(), resp->body());
-            }
-        private:
-            basicCommonResponsePtr waitResponse(const std::string &rid) {
-                std::unique_lock<std::mutex> lock(_mutex);
-                _cv.wait(lock, [&rid, this](){
-                    return _basic_resp.find(rid) != _basic_resp.end();
-                });
-                //while(condition()) _cv.wait();
-                basicCommonResponsePtr basic_resp = _basic_resp[rid];
-                _basic_resp.erase(rid);
-                return basic_resp;
-            }
+  public:
+    // 连接收到基础响应后，向hash_map中添加响应
+    void putBasicResponse(const basicCommonResponsePtr &resp)
+    {
+      std::unique_lock<std::mutex> lock(_mutex);
+      _basic_resp.insert(std::make_pair(resp->rid(), resp));
+      _cv.notify_all();
+    }
+
+    // 连接收到消息推送后，需要通过信道找到对应的消费者对象，通过回调函数进行消息处理
+    void consume(const basicConsumeResponsePtr &resp)
+    {
+      if (_subscriber_ptr.get() == nullptr)
+      {
+        DLOG("消息处理时，未找到订阅者信息！");
+        return;
+      }
+      if (_subscriber_ptr->_subscribe_queue_tag != resp->consumer_tag())
+      {
+        DLOG("收到的推送消息中的消费者标识，与当前信道消费者标识不一致！");
+        return;
+      }
+      _subscriber_ptr->_callback(resp->consumer_tag(), resp->mutable_properties(), resp->body());
+    }
+
+  private:
+    basicCommonResponsePtr waitResponse(const std::string &rid)
+    {
+      std::unique_lock<std::mutex> lock(_mutex);
+      _cv.wait(lock, [&rid, this]()
+               { return _basic_resp.find(rid) != _basic_resp.end(); });
+      // while(condition()) _cv.wait();
+      basicCommonResponsePtr basic_resp = _basic_resp[rid];
+      _basic_resp.erase(rid);
+      return basic_resp;
+    }
+
   private:
     std::string _channel_id;
     muduo::net::TcpConnectionPtr _connection_ptr;
@@ -284,6 +290,40 @@ namespace MQ
     std::mutex _mutex;
     std::condition_variable _cv;
     std::unordered_map<std::string, basicCommonResponsePtr> _basic_resp;
+  };
+
+  class ChannelManager
+  {
+  public:
+    using ptr = std::shared_ptr<ChannelManager>;
+    ChannelManager() {}
+    Channel::ptr create(const muduo::net::TcpConnectionPtr &conn,
+                        const ProtobufCodecPtr &codec)
+    {
+      std::unique_lock<std::mutex> lock(_mutex);
+      auto channel = std::make_shared<Channel>(conn, codec);
+      _channels.insert(std::make_pair(channel->cid(), channel));
+      return channel;
+    }
+    void remove(const std::string &cid)
+    {
+      std::unique_lock<std::mutex> lock(_mutex);
+      _channels.erase(cid);
+    }
+    Channel::ptr get(const std::string &cid)
+    {
+      std::unique_lock<std::mutex> lock(_mutex);
+      auto it = _channels.find(cid);
+      if (it == _channels.end())
+      {
+        return Channel::ptr();
+      }
+      return it->second;
+    }
+
+  private:
+    std::mutex _mutex;
+    std::unordered_map<std::string, Channel::ptr> _channels;
   };
 }
 
