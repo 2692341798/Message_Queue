@@ -40,6 +40,11 @@ namespace MQ
       basicCancel();
     }
 
+    std::string cid()
+    {
+      return _channel_id;
+    }
+    
     bool openChannel()
     {
       std::string rid = UUIDHelper::uuid();
