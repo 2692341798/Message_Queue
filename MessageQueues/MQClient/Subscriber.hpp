@@ -40,9 +40,6 @@ namespace MQ
     std::string _subscribe_queue_tag;
     // 消费者回调函数
     SubscriberCallback _callback;
-
-    // 指针
-    using ptr = std::shared_ptr<Subscriber>;
   };
 
 }

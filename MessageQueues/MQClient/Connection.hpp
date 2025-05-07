@@ -42,7 +42,7 @@ namespace MQ
       _client.connect();
       _latch.wait(); // 阻塞等待，直到连接建立成功
     }
-    //打开信道
+    // 打开信道
     Channel::ptr openChannel()
     {
       Channel::ptr channel = _channel_manager->create(_conn, _codec);
@@ -54,7 +54,7 @@ namespace MQ
       }
       return channel;
     }
-    //关闭信道
+    // 关闭信道
     void closeChannel(const Channel::ptr &channel)
     {
       channel->closeChannel();
@@ -74,6 +74,7 @@ namespace MQ
       // 2. 将得到的响应对象，添加到信道的基础响应hash_map中
       channel->putBasicResponse(message);
     }
+
     void consumeResponse(const muduo::net::TcpConnectionPtr &conn, const basicConsumeResponsePtr &message, muduo::Timestamp)
     {
       // 1. 找到信道
@@ -87,11 +88,13 @@ namespace MQ
       _worker->pool.push([channel, message]()
                          { channel->consume(message); });
     }
+
     void onUnknownMessage(const muduo::net::TcpConnectionPtr &conn, const MessagePtr &message, muduo::Timestamp)
     {
       LOG_INFO << "onUnknownMessage: " << message->GetTypeName();
       conn->shutdown();
     }
+
     void onConnection(const muduo::net::TcpConnectionPtr &conn)
     {
       if (conn->connected())
@@ -113,8 +116,8 @@ namespace MQ
     ProtobufDispatcher _dispatcher;     // 请求分发器
     ProtobufCodecPtr _codec;            // 协议处理器
 
-    AsyncWorker::ptr _worker;//异步工作线程
-    ChannelManager::ptr _channel_manager;//信道管理器
+    AsyncWorker::ptr _worker;             // 异步工作线程
+    ChannelManager::ptr _channel_manager; // 信道管理器
   };
 }
 #endif

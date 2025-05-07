@@ -6,8 +6,6 @@
 #include "../MQCommon/ThreadPool.hpp"
 #include "../MQCommon/message.pb.h"
 #include "../MQCommon/request.pb.h"
-#include "../MQServer/Route.hpp"
-#include "../MQServer/VirtualHost.hpp"
 #include "Subscriber.hpp"
 #include "muduo/net/TcpConnection.h"
 #include "muduo/protobuf/codec.h"
@@ -18,7 +16,7 @@
 
 namespace MQ
 {
-  typedef std::shared_ptr<google::protobuf::Message> MessagePtr;
+  using MessagePtr = std::shared_ptr<google::protobuf::Message>;
   using ProtobufCodecPtr = std::shared_ptr<ProtobufCodec>;
   using basicConsumeResponsePtr = std::shared_ptr<basicConsumeResponse>;
   using basicCommonResponsePtr = std::shared_ptr<basicCommonResponse>;
@@ -44,7 +42,7 @@ namespace MQ
     {
       return _channel_id;
     }
-    
+
     bool openChannel()
     {
       std::string rid = UUIDHelper::uuid();
@@ -246,6 +244,7 @@ namespace MQ
         DLOG("添加订阅失败！");
         return false;
       }
+      DLOG("添加订阅成功！订阅者：%s,订阅队列:%s", consumer_tag.c_str(), queue_name.c_str());
       _subscriber_ptr = std::make_shared<Subscriber>(consumer_tag, queue_name, auto_ack, cb);
       return true;
     }
