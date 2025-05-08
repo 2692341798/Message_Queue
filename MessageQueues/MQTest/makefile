@@ -1,4 +1,4 @@
-all:Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message Test_VirtualHost Test_Route Test_Consumer Test_Channel Test_Connection
+all:Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message Test_VirtualHost Test_Route Test_Consumer Test_Channel Test_Connection 
 
 Test_VirtualHost:Test_VirtualHost.cpp ../MQCommon/message.pb.cc
 	g++ -g -o $@ $^ -std=c++11 -lgtest -lprotobuf -lsqlite3 -pthread
@@ -29,6 +29,7 @@ Test_Channel:Test_Channel.cpp ../MQCommon/message.pb.cc ../MQCommon/request.pb.c
 
 Test_Connection:Test_Connection.cpp ../MQCommon/message.pb.cc ../MQCommon/request.pb.cc
 	g++ -g -std=c++11 $^ -o $@ -lgtest -lprotobuf -lsqlite3 -I../ThirdLib/lib/include
+
 .PHONY:
 clean:
 	rm -rf Test_FileHelper Test_Exchange Test_Queue Test_Binding Test_Message Test_VirtualHost Test_Route Test_Consumer Test_Channel Test_Connection

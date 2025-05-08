@@ -41,7 +41,9 @@ public:
     // 将传入的函数及函数的参数绑定为一个无参函数对象，之后再构造一个智能指针去管理一个packaged_task对象，最后封装为任务指针，放入任务池
     //封装为任务指针是因为packaged_task并不是一个函数对象,不可以直接传给线程执行
     using return_type = decltype(func(args...));
-    auto function = std::bind(std::forward<F>(func), std::forward<Args>(args)...);//参数包的展开
+    //参数包的展开
+    auto function = std::bind(std::forward<F>(func), std::forward<Args>(args)...);
+    //智能指针包装packaged_task
     auto task = std::make_shared<std::packaged_task<return_type()>>(function);
 
     std::future<return_type> fu = task->get_future();

@@ -39,6 +39,7 @@ namespace MQ
       for (auto &q : queue_map)
       {
         _consumer_manager->initQueueConsumer(q.first);
+        DLOG("%s",q.first.c_str());
       }
 
       // 注册业务请求处理函数

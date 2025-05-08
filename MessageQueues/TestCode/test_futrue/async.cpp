@@ -17,7 +17,7 @@ int main()
 {
   std::cout << "--------1----------\n";
   //lanch::deferred当调用get函数时才执行函数,lanch::async是立即调用
-  std::future<int> result = std::async(std::launch::deferred, Add, 12, 13);
+  std::future<int> result = std::async(std::launch::async, Add, 12, 13);
   sleep(10);
   std::cout << "--------2----------\n";
   int sum = result.get();

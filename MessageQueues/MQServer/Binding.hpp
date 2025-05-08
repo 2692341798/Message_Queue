@@ -148,7 +148,6 @@ namespace MQ
       // 所以利用unordered_map的[]运算符重载，有则拿出对应交换机所对应的队列哈希表，若没有则创建
       QueueBindingMap &queue_binding_map = (*result)[binding->name_exchange];
       queue_binding_map.insert(std::make_pair(binding->name_queue, binding));
-      // 这里并不需要再使用result.insert(std::make_pair(binding->name_exchange, queue_binding_map))，因为在上一个语句中，操作的已经是该交换机名称所对应的队列哈希表了
       return 0;
     }
 

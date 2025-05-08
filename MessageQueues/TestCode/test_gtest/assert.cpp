@@ -1,8 +1,8 @@
 #include <gtest/gtest.h> // 引入Google Test框架的头文件  
 #include <iostream>  
   
-using std::cout; // 使用std命名空间中的cout对象，用于标准输出  
-using std::endl; // 使用std命名空间中的endl对象，用于输出换行符  
+using std::cout; 
+using std::endl;  
   
 // 定义一个测试用例，属于"test"测试套件，用例名称为"testname_less_than"  
 TEST(test, testname_less_than)  

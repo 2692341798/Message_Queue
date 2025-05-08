@@ -1,7 +1,5 @@
 #ifndef __M_ThreadPool_H__
 #define __M_ThreadPool_H__
-namespace MQ
-{
 #include <condition_variable>
 #include <functional>
 #include <future>
@@ -11,16 +9,18 @@ namespace MQ
 #include <thread>
 #include <vector>
 
+namespace MQ
+{
   class ThreadPool
   {
   public:
+    using ptr = std::shared_ptr<ThreadPool>;
     // 定义任务类型为无参数无返回值的函数
     using Task = std::function<void(void)>;
-
     // 构造函数，初始化线程池
     // 参数为线程池中的线程数量，默认为1
     // 初始化停止标志为false
-    ThreadPool(int thr_count = 1)
+    ThreadPool(int thr_count = 2)
         : _stop(false)
     {
       for (int i = 0; i < thr_count; i++)
@@ -39,7 +39,7 @@ namespace MQ
     // 模板函数，用于向线程池中添加任务
     // 返回一个future，包含任务的返回值
     template <typename F, typename... Args>
-    auto push(const F &&func, Args &&...args) -> std::future<decltype(func(args...))>
+    auto push(F &&func, Args &&...args) -> std::future<decltype(func(args...))>
     {
       // 无参函数对象->packaged_task->任务对象智能指针
       //  将传入的函数及函数的参数绑定为一个无参函数对象，之后再构造一个智能指针去管理一个packaged_task对象，最后封装为任务指针，放入任务池
