@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+*.dSYM/
+
+# Build directories
+build/
+
+# Local data
+data/dev/
+tests/data/
+tests/playground/**/test.db
+
+# Generated databases and message files
+*.db
+*.message_data
+
+# Common local binaries
+server
+PublichClient
+ConsumeClient
+Test_*
