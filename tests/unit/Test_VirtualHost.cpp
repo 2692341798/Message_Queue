@@ -5,7 +5,7 @@
 class HostTest : public testing::Test {
     public:
         void SetUp() override {
-            std::unordered_map<std::string, std::string> empty_map = std::unordered_map<std::string, std::string>();
+            google::protobuf::Map<std::string, std::string> empty_map;
             _host = std::make_shared<MQ::VirtualHost>("host1", "./data/host1/message/", "./data/host1/host1.db");
             _host->declareExchange("exchange1", MQ::ExchangeType::DIRECT, true, false, empty_map);
             _host->declareExchange("exchange2", MQ::ExchangeType::DIRECT, true, false, empty_map);
