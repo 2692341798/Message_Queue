@@ -153,12 +153,6 @@ Test data is stored in `tests/data/`.
 
 The repository also keeps the project-level documents needed for future maintenance:
 
-- `.trae/documents/InkWords_API.md`
-- `.trae/documents/InkWords_Architecture.md`
-- `.trae/documents/InkWords_Conversation_Log.md`
-- `.trae/documents/InkWords_Database.md`
-- `.trae/documents/InkWords_Development_Plan_and_Log.md`
-- `.trae/documents/InkWords_PRD.md`
 - `docs/superpowers/`
 
 ## Cleanup Summary

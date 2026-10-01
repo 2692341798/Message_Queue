@@ -160,12 +160,6 @@ make test
 
 仓库内同步维护了本次整理所需的项目文档，便于后续继续迭代：
 
-- `.trae/documents/InkWords_API.md`
-- `.trae/documents/InkWords_Architecture.md`
-- `.trae/documents/InkWords_Conversation_Log.md`
-- `.trae/documents/InkWords_Database.md`
-- `.trae/documents/InkWords_Development_Plan_and_Log.md`
-- `.trae/documents/InkWords_PRD.md`
 - `docs/superpowers/`
 
 ## 仓库整理说明
