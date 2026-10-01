@@ -44,8 +44,10 @@ tests/playground/**/test.db
 *.db
 *.message_data
 
-# Common local binaries
-server
-PublichClient
-ConsumeClient
-Test_*
+# Common local binaries (anchored: a bare `server` / `Test_*` also matched
+# the src/server/ directory and the tests/unit/Test_*.cpp sources)
+/src/server/server
+/src/client/PublichClient
+/src/client/ConsumeClient
+/tests/unit/Test_*
+!/tests/unit/Test_*.cpp
